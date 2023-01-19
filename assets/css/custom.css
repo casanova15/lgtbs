@@ -1,0 +1,21 @@
+
+.container {
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.name{
+    padding-bottom:10px;
+}
+.title_bg{
+    background:#ed8019;
+    color:#fff;
+}
+.brand{
+    color:#9f2421;
+}
+.brand a {
+    color:#9f2421!important;
+}
