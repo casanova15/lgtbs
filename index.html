@@ -1,0 +1,115 @@
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <title>Selfie Generator by </title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="include/image-uploader/cropper.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!--load all styles -->
+	
+</head>
+
+<body class="bg-light" style="background-image:url('./assets/img/background.jpeg');background-repeat: no-repeat;background-size: cover;">
+
+    <div class="container" style="">
+
+        <div class="row">
+        
+<div class="col-md-12 text-center">
+<img src="./assets/img/banner.jpeg" class="img-fluid" />
+</div>
+
+			<div class="col-md-12">
+
+
+				<div class="row">
+
+		            <div class="col-md-2 order-md-3 mb-4"> </div>
+					<div class="col-md-2 order-md-1 mb-4"></div>
+
+		            <div class="col-md-8 order-md-2">
+						<form method="POST">
+		                    <div class="row">
+								<div class="col-md-6 offset-md-3">
+									<label class="form-label">Select Your Photo</label>
+									<div class="imageUploader">
+										<div class="user_pic_container_box">
+											<img data-type="circle" data-width="295" data-height="295" class='user_pic_container' src='src/profile_img_1.png'/>
+										</div>
+										<a class="imgremovebtn" href="#">X</a>
+										<input readonly style="display: none" id='file_browse' type="file" accept="image/*">
+										<input type="hidden" name="profile_pic_1" class="value_container" value="nochange" />
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-6 mb-3 offset-md-3">
+		                            <label for="name">Your Name</label>
+		                            <input type="text" class="form-control" name="name" id="name" value="" required="" maxlength="20">
+		                        </div>
+		                    </div>
+		                    
+		                    	<div class="row">
+								<div class="col-md-6 mb-3 offset-md-3">
+		                            <label for="name">Whatsapp Number</label>
+		                            <input type="text" class="form-control" name="phone" id="phone" value="" required="" maxlength="10">
+		                        </div>
+		                    </div>
+							<hr class="mb-4">
+
+		                    <div class="row">
+								<div class="col-md-6 mb-4 offset-md-3">
+									<button onclick="gtag('event', 'selfie-1', {'event-category': 'selfie' ,'event_label': 'Selfie' });" type="submit" class="btn title_bg btn-lg btn-block">Download</button>
+								</div>
+							</div>
+		                    
+		                </form>
+		            </div>
+
+	        	</div>
+
+			</div>
+			
+			<div class="col-md-12">
+				<hr class="mb-1 mt-4">
+			</div>
+
+		</div>
+
+		<div class="text-center col-md-12 title_bg text-white pt-2 pb-2">
+			Powered By: <a href='https://www.facebook.com/BJP4Vadodra' class="text-white" target='_blank'><b>BJP Vadodara</b></a>
+		</div>
+		
+		<div class="text-center col-md-12 brand pt-2 pb-2">
+			Developed By: <a href='https://www.byteweb.in' class="text-white" target='_blank'><b>ByteWeb IT Solutions Private Limited</b></a>
+		</div>
+
+	</div>
+
+    <!-- Bootstrap core JavaScript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    		crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="include/image-uploader/cropper.js"></script>
+    <script src="include/image-uploader/image.js"></script>
+
+</body>
+
+</html>
